@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sstore - Registro</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Sstore</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="registro-main">
+    <section class="registro-card">
+        <h2>Registro de Cliente</h2>
+
+        <form>
+
+            <form>
+
+    <div class="campo">
+        <label>Nombre</label>
+        <input type="text" required>
+    </div>
+
+    <div class="campo">
+        <label>Apellidos</label>
+        <input type="text" required>
+    </div>
+
+    <div class="campo">
+        <label>Correo Electrónico</label>
+        <input type="email" required>
+    </div>
+
+    <div class="campo">
+        <label>Teléfono</label>
+        <input type="tel">
+    </div>
+
+    <!-- SELECT -->
+    <div class="campo">
+        <label>País</label>
+        <select required>
+            <option value="">Seleccione su país de registro </option>
+            <option>Costa Rica</option>
+            <option>Nicaragua </option>
+            <option>El Salvador </option>
+            <option>Honduras</option>
+        </select>
+    </div>
+
+    <!-- RADIO BUTTONS -->
+    <div class="campo">
+        <label>Género</label>
+        <div>
+            <input type="radio" name="genero" required> Femenino
+            <input type="radio" name="genero"> Masculino
+            <input type="radio" name="genero"> Otro
+        </div>
+    </div>
+
+    <!-- CHECKBOX -->
+    <div class="campo">
+        <input type="checkbox" required>
+        Acepto los términos y condiciones
+    </div>
+
+    <button type="submit" class="btn">Registrarse</button>
+
+</form>
+
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Sstore - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
+
